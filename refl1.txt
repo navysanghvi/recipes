@@ -1,0 +1,19 @@
+git --version
+git clone			--> to clone an existing repository
+git log --stat			--> to see stats in the log (how many +,-,etc)
+git log --graph 
+--oneline branchnames		--> view the branches ka logs in graph form
+git diff id1 id2		--> to see differences between commits
+git diff 			--> difference between working directory and staging area
+git diff --staged		--> differnce between staging area and most recent commit
+git checkout 			--> to check out a previous commit
+git init			--> initialize a repository
+git status			--> to get the current status of the repository
+git add				--> add to the staging area
+git reset --hard		--> discard all changes in staging area and working directory
+git branch branchname		--> create a new branch
+git branch -d branchname	--> delete branch
+git checkout -b branchname	--> create new branch and switch to that branch
+git push remotename branchname	--> push local to online
+git pull remotename branchname	--> pull online to local
+git remote add remotename URL	--> add a remote
